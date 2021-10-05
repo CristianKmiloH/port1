@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    /* padding: .5em; */
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* display: flex; */
+    margin: 0;
+}
+/* nav{
+    
+    padding: 20px 50px 0 0;
+    background: rgba(168, 118, 118, 0.678);
+    width: 50px;
+    
+} */
+nav a{
+    color: silver;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+aside{
+    width: 20%;
+    height: 100hv;
+    position: fixed;
+    background-size: contain;
+    background-attachment: fixed;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,121,9,1) 35%, rgba(0,212,255,1) 100%),url(/assets/css/);
+    text-align: center;
+}
+aside div{
+    margin-top: 100px;
+}
+a{
+    display: block;
+    align-items: flex-start;
+    padding: 5px;
+}
+aside{
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;  
+}
+aside nav{
+    display: block;
+    margin-top: 80px;
+    padding: 40px;
+    
+
+}
+aside img{
+    width: 70px;
+    height: 70px;
+}
+.contenido{
+    position: relative;
+    width: 80%;
+    left: 22%;
+}
+.home{
+    background: coral;
+    font-size: 40px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    text-shadow: purple 3px 3px 3px;
+}
+.home img{
+    width: 100%;
+}
+h2{
+    color: darkcyan;
+    padding: 10px;
+    text-shadow: darkred 1.5px 1.5px 1.5px;
+    text-align: center;
+}
+h3{
+    color: darkcyan;
+    padding: 10px;
+    text-align: center;
+}
+h4{
+    padding: 10px;
+}
+.cont1{
+    display: flex;
+    background: darkgray;
+    margin: 30px;
+    padding: 15px;
+    
+}
+.cont1 img{
+    display: block;
+    height: 150px;
+    width: 150px;
+    background: cadetblue;
+    /* vertical-align: middle; */
+}
+.imagen1{
+    height: 100px;
+    width: 300px;
+    background: rebeccapurple;
+}
+.cont1 p{
+    padding: 20px;
+}
+.portfolio img{
+    height: 30%;
+    width: 30%;
+}
+.contServices{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background: cornflowerblue;
+    align-items: center;
+}
+.services img{
+    height: 15%;
+    width: 15%;
+    padding: 20px;
+}
+.services p{
+    padding: 20px;
+}
+.contResume{
+    display: flex;
+    margin-top: 30px;
+}
+.contResume h3{
+    text-align: center;
+}
+.contResume p{
+    padding: 3px;
+}
+.sumary{
+    display: flex;
+}
+.infoPers{
+    width: 50%;
+}
+.sumary ul{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.sumary h4{
+    text-align: center;
+}
+/* .contProExp{
+    margin: 50px;
+} */
+.contProExp p{
+    margin-left: 35px;
+}
+
+
+/* dispaly flex */
